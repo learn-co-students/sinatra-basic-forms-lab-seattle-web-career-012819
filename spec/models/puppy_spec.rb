@@ -26,11 +26,11 @@ describe 'Puppy class' do
     expect(puppy.breed).to eq("black lab")
   end
 
-  it 'can read a puppy age (puppy#age)' do 
+  it 'can read a puppy age (puppy#age)' do
     expect(puppy.age).to eq(2)
   end
 
-  it 'can change puppy age (puppy#age=)' do 
+  it 'can change puppy age (puppy#age=)' do
     puppy.age = 3
     expect(puppy.age).to eq(3)
   end
